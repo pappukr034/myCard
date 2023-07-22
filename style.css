@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #d989fb;
+}
+.container{
+    width: 300px;
+    height: 450px;
+    background-color: aliceblue;
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+    box-shadow: 2px 2px 3px #c5bebe,-2px -2px 4px #c5bebe;
+    border-radius: 10px;
+}
+.blue{
+    width: 300px;
+    height: 150px;
+    background-color: #0000ff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.profile-image{
+    width: 110px;
+    position: absolute;
+    border-radius: 80%;
+    bottom: 255px;
+    left: 96.2px;
+}
+.wraper{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.name{
+    font-size: 19px;
+    color: #f10505;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.role{
+    font-size: 24px;
+    color: #0f0a3f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.keys{
+    font-size: 14px;
+    margin-top: 12px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.viewProfile{
+   width: 150px;
+   height: 40px;
+   padding: 10px;
+   margin-top: 30px;
+   margin-left: 69px;
+   border-radius: 14px;
+   background-color: #3232eb;
+   font-size: 18px;
+   color: whitesmoke;
+   border: none;
+}
+.viewProfile:hover{
+    background-color: antiquewhite;
+    color: rgb(44, 43, 43);
+    transition: 0.4s ease-in;
+    border: 2px red;
+}
